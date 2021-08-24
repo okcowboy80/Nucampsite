@@ -2,6 +2,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.navbar {
+    background-color: #901CAD;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
 h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
