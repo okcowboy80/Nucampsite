@@ -30,8 +30,7 @@
                 <div class="col col-md-4 col-xl-2 mt-4">
                     <a class="btn btn-info" href="#reserveForm">Reserve Campsite</a>
                 </div>
-            </div>
-            
+            </div>    
         </div>
     </header>
     
@@ -78,8 +77,7 @@
                         <h3>React Lake Campground</h3>
                         <p class="d-none d-sm-block"><p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p></p>
                     </div>
-                    <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake" />
-                    
+                    <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake" /> 
                 </div>
             </div>
         </div>
@@ -98,17 +96,17 @@
                 </div>
             </div>
         </div>
-        <!-- START HERE -->
+
         <div class="row row-content">
             <div class="col-sm-6 mx-auto">
                 <div class="card">
-                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                    <h3 class="card-header bg-info text-light">Reserve a Campsite</h3>
                     <div class="card-body">
                         <form id="reserveForm">
-                            <div class="row">
-                                <label class="col-form-label col-sm-6" for="numCampers">Number of Campers</label>
-                                <div class="col mb-3">
-                                    <select class="form-control" name="numCampers" id="numCampers">
+                            <div class="row form-group">
+                                <label class="col-form-label col-sm-6" for="#numCampers">Number of Campers</label>
+                                <div class="col">
+                                    <select class="col form-control" name="numCampers" id="numCampers">
                                         <option value="select">Select...</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -116,18 +114,17 @@
                                         <option value="4">4</option>
                                         <option value="5">5</option>
                                         <option value="6">6</option>
-                                        <option value="7">7</option>
-                                      </select>
+                                    </select>
                                 </div>   
                             </div>
-                            <div class="row">
-                                <label class="col-form-label col-sm-6" for="date">Date</label>
-                                <div class="col-sm-6 mb-3" class="form-group">
+                            <div class="row form-group">
+                                <label class="col-form-label col-sm-6" for="#date">Date</label>
+                                <div class="col">
                                     <input type="date" id="date" class="form-control" name="date" placeholder="date">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col form-group" >
+                                <div class="col">
                                     <button class="btn btn-primary" type="submit">Search</button>
                                 </div>
                             </div>
@@ -136,7 +133,7 @@
                 </div>
             </div>
         </div>
-<!--END HERE-->
+
     </div>
 
     <footer class="site-footer">
@@ -145,10 +142,10 @@
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Sites</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center">
